@@ -47,7 +47,7 @@ $template = new Template(['Name' => $name, 'Stuff'=> $stuff]);
 $template->render('extra');
 ```
 
-In your extra.tmpl you should put this one
+In your extra.tmpl you should put something like code below
 
 ```
 Hey {{Name}}, here's a slightly better formatted poem for you: <br>
@@ -59,5 +59,9 @@ Hey {{Name}}, here's a slightly better formatted poem for you: <br>
 ```
 
 #### Obs. You must put \<br\> if you want break a line, this is a template engine that will return based on HTML.
+
+## Test.
+
+You can see how it works on [Heroku (example)](https://templatepcre.herokuapp.com/index.html)
 
 
