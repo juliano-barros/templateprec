@@ -15,5 +15,5 @@ $template = new Template(['Name' => $name, 'Stuff'=> $stuff]);
 //$template->addVariable('Name', $Name);
 //$template->addVariable('Stuff', $Stuff);
 // If your views are in a different path you can set your base path views
-//$template->setPath( 'src/views/');
+/// $template->setBasePath( 'src/views/');
 $template->render('extra');
